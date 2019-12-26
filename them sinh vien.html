@@ -1,0 +1,42 @@
+<html>
+<head>
+                 <meta charset="urf-8">
+                 <title>bài tập tạo trang</title>
+</head>
+<body>
+<h1> Mẫu Thông Tin Sinh Viên
+</h1>
+<form method="post" action="themsinhvien.php">
+    <fieldset>
+        <legend>Thông Tin Cá Nhân</legend>
+    Họ và tên:<input type="text" name="hovaten" value=""><br>
+    Ngày sinhh:<input type="date" name="ngaysinh" value=""><br>
+    Giới tính:<input type="radio" name="gioitinh" value="1">Nam
+              <input type="radio" name="gioitinh" value="0">Nữ<br>
+
+    Quê quán: <select name="quequan">
+               <option value="HN">Hà Nội</option>
+               <option value="HP">Hải Phòng</option>
+               <option value="BN">Bắc Ninh</option>
+              </select><br>
+    </fieldset>
+Sở thích:
+    <input type="checkbox" name="sothich" value="1"> Thể Thao
+    <input type="checkbox" name="sothich" value="2"> Nghe Nhạc
+    <input type="checkbox" name="sothich" value="3"> Ca Hát
+    <input type="checkbox" name="sothich" value="4"> Du Lịch
+<br>
+    ID:<input type="hidden" name="id" value="12345"><br>
+    Tài Khoản email:<input type="email" name="tengmail"><br>
+    Mật Khẩu:<input type="password" name="matkhau"><br>
+
+    Mô Tả:<textarea name="mota" cols="60" rows="5"></textarea><br>
+<input type="submit" value="Nộp"> <input type="reset" value="hoantac"><br>
+
+
+
+</form>
+
+</body>
+</html>
+thanh keo <input type="range" name="score" id="score" value="50" min="0" max="100">
